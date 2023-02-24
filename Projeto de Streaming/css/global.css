@@ -1,0 +1,28 @@
+@import url('./colors.css');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  min-height: 100vh;
+  padding-bottom: 100px;
+
+  background: var(--background);
+  font-family: 'Roboto', sans-serif;
+}
+
+.dark {
+  --background: #1B2028;
+  --input-color: white;
+  --input-background: #3E434D;
+  --text-color: #FFFFFF;
+  --bg-secondary: #2D3440;
+  --rating-color: #F1C40F;
+  --bg-modal: #2D3440;
+}
